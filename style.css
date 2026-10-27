@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #222;
+}
+
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.search-box,
+.results {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17365d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24558b;
+}
+
+.train-card {
+    padding: 15px;
+    margin-top: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#message {
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+}
