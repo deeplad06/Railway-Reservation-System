@@ -80,3 +80,4 @@ function searchTrains() {
 
 searchBtn.addEventListener("click", searchTrains);
 console.log("Feature branch: Booking status functionality");
+console.log("Feature branch: Train search functionality");
