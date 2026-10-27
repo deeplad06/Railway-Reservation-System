@@ -79,3 +79,4 @@ function searchTrains() {
 }
 
 searchBtn.addEventListener("click", searchTrains);
+console.log("Feature branch: Booking status functionality");
